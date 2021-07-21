@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Heidi's Work</title>
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.production.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+  <header class="page-header">
+    <img src="img/heidi_newcom_website_logo.svg"
+      alt="personal logo of Heidi Newcom, a text logo in uppercase letters that consists of my name"
+      class="page-header__item">
+    <nav class="page-header__item">
+      <ul role="menubar" class="navigation-list">
+        <li role="presentation">
+          <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+        </li>
+        <li role="presentation">
+          <a href="about.html" role="menuitem" class="navigation-list__item">About Me</a>
+        </li>
+        <li role="presentation">
+          <a href="work.html" role="menuitem" class="navigation-list__item--active">Portfolio</a>
+        </li>
+        <li role="presentation">
+          <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="banner">
+    <h1>PORTFOLIO</h1>
+  </div>
+
+  <section>
+    <div class="grid">
+      <div class="grid__item">
+        <h2>Meet App</h2>
+        <p> This app is a serverless, progressive web application (PWA) using
+          React and a test-driven development (TDD) technique. The application
+          uses the Google Calendar API to fetch upcoming events.</p>
+        <img src="img/meet_app.png" class="meet-app" alt="meet app picture" width="384" height="216">
+        <a href="https://github.com/hnewcom47/meet-app" id="portfolio-link1">See project on Github</a>
+      </div>
+
+      <div class="grid__item">
+        <h2>Pokédex App</h2>
+        <p> This project is a web app written primarily in JavaScript and a bit
+          of JQuery. It loads Pokémon data from an external API. Users can view
+          a list of Pokémon and click on a Pokémon's button to view a modal with
+          more details/statistics.</p>
+        <img src="img/pokedex.png" class="pokedex" alt="pokdex picture" width="384" height="216">
+        <a href="https://github.com/hnewcom47/javascript-app" id="portfolio-link2">See project on Github</a>
+      </div>
+
+      <div class="grid__item">
+        <h2>myFlix API</h2>
+        <p> The server-side component of a "movies" web application that provides
+          users with access to information about different movies, directors, and
+          genres. Users can sign up, update their personal information, and create
+          a list of their favorite movies.</p>
+        <img src="img/movie_api.png" class="myFlix-api" alt="myFlix API picture" width="384" height="216">
+        <a href="https://github.com/hnewcom47/movie_api" id="portfolio-link3">See project on Github</a>
+      </div>
+
+      <div class="grid__item">
+        <h2>myFlix Angular App</h2>
+        <p> The client side of my myFlix API built using Angular. Users can create
+          an account and view a list of all movies in the database. Users can get
+          information about a movie (description, genre, and director), are able to
+          add/remove movies from their favorites list and edit their profile.</p>
+        <img src="img/myflix_angular.png" class="myFlix-angular" alt="myFlix angular picture" width="384" height="216">
+        <a href="https://github.com/hnewcom47/myFlix-Angular-client" id="portfolio-link4">See project on Github</a>
+      </div>
+
+      <div class="grid__item">
+        <h2>Chat App</h2>
+        <p> This project is a React Native app for iOS and Android that allows
+          users to chat, share images, and locations. Users can also select a
+          background color before beginning their chat. The app also includes the
+          ability to view messages offline while disabling input so no new
+          messages can be sent.</p>
+        <img src="img/chat_app.png" class="chat-app" alt="chat app picture" width="300" height="600">
+        <a href="https://github.com/hnewcom47/chat-app" id="portfolio-link5">See project on Github</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="page-footer">
+    <p>Find me on:</p>
+    <div class="social-media">
+      <a href="https://www.instagram.com/lo_mo_jo/" target="_blank" rel="noopener noreferrer">
+        <img src="img/icon_instagram.svg" alt="Instagram">
+      </a>
+    </div>
+  </footer>
+
+</body>
+
+</html>
